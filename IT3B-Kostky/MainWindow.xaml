@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="Dice Roller" Height="350" Width="525">
     <Grid>
-        <Button Content="Roll Dice" Width="100" Height="30" Click="RollDice_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+        <Button Content="Roll Dice" Width="100" Height="30" Click="RollDice_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,10,0,0"/>
         <Canvas Name="DiceCanvas" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,50,10,10"/>
+        <TextBox Name="HistoryTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10,10,10,10" Height="100" IsReadOnly="True" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
+        <Button Content="Save History" Width="100" Height="30" Click="SaveHistory_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="345,10,0,0"/>
     </Grid>
 </Window>
