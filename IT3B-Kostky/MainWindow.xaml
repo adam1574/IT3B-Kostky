@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IT3B_Kostky"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Dice Roller" Height="350" Width="525">
     <Grid>
-
+        <Button Content="Roll Dice" Width="100" Height="30" Click="RollDice_Click" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+        <Canvas Name="DiceCanvas" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,50,10,10"/>
     </Grid>
 </Window>
